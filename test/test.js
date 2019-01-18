@@ -13,5 +13,15 @@ describe('Array',  () => {
             // then
             expect(result).to.equal(-1);
         });
+        it('should return 1 when the value is found in the second position in the array', ()=>{
+            // given
+            const VALID_INDEX =  2;
+
+            // when
+            const result= [1,2,3].indexOf(VALID_INDEX);
+
+            // then
+            expect(result).to.equal(1)
+        });
     });
 });
