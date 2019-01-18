@@ -2,10 +2,10 @@
   "name": "formation",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/server.js",
   "scripts": {
     "coverage": "nyc mocha --timeout=3000",
-    "start": "node index",
+    "start": "node bin/www",
     "test": "mocha"
   },
   "author": "",
