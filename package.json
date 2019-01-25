@@ -6,7 +6,7 @@
   "scripts": {
     "coverage": "nyc mocha --timeout=3000",
     "start": "node bin/www",
-    "test": "mocha"
+    "test": "mocha --recursive"
   },
   "author": "",
   "license": "ISC",
